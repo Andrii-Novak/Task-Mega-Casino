@@ -88,18 +88,4 @@ class SuperAdmin(User):
         pass
 
 if __name__ == "__main__":
-    game1 = GameMachine(300)
-    us = User("Andriy", 1000000)
-    us.playGame(game1, 100)
-    print("user money: {}".format(us.money))
-    print("machine money: {}".format(game1.getMoney()))
-    list1 = [1, 2, 3]
-    buf = list1.pop(1)/2
-    list1[1] += buf
-    print(list1)
-
-    x = {1: 'A', 3: 'D', 4: 'F', 2: 'C', 0: 'E'}
-    print(list(x.keys()))
-    print(list(x.values()))
-    print(list(dict(sorted(x.items(), key=lambda item: item[1], reverse=True)).keys()))
-    
+    pass
