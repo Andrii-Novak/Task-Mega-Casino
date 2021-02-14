@@ -100,7 +100,7 @@ class SuperAdmin(User):
                 buf = machine.takeMoney(money)
                 money -= buf
                 moneyToReturn += buf
-                if money = 0:
+                if money == 0:
                     self.money += moneyToReturn
                     return moneyToReturn
         return 0
